@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tucker & Son's Junk Removal - Professional Junk Removal Services</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'orange': '#FF6B35',
+                        'dark-blue': '#003366'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+    .hero-bg {
+            background-color: #003366;
+            background-size: cover;
+            background-position: center;
+        }
+body {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-weight: bold;
+        }
+        a, button {
+            font-size: 20px;
+            padding: 12px 24px;
+        }
+        input, textarea {
+            font-size: 18px;
+            padding: 12px;
+        }
+        .container {
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-dark-blue text-white">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <h1 class="text-white text-4xl font-bold">Tucker & Son's Junk Removal</h1>
+                </div>
+<nav class="w-full md:w-auto">
+                    <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-center">
+                        <li><a href="#home" class="block hover:text-orange transition text-2xl py-2">Home</a></li>
+                        <li><a href="#services" class="block hover:text-orange transition text-2xl py-2">Services</a></li>
+                        <li><a href="#about" class="block hover:text-orange transition text-2xl py-2">About Us</a></li>
+                        <li><a href="#contact" class="block hover:text-orange transition text-2xl py-2">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-6">Your Local Junk Removal Experts</h2>
+            <p class="text-2xl mb-10 max-w-3xl mx-auto">Fast, friendly, and affordable junk removal services for homes and businesses. We do the heavy lifting for you!</p>
+            <a href="#contact" class="bg-orange hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition text-2xl inline-block">Get a Free Quote</a>
+        </div>
+    </section>
+<!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-dark-blue">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <i data-feather="trash-2" class="w-16 h-16 text-orange mb-6 mx-auto"></i>
+                    <h3 class="text-2xl font-bold mb-4">Home Cleanouts</h3>
+                    <p class="text-lg">We clean out garages, basements, attics, and yards. No job is too big or too small!</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <i data-feather="truck" class="w-16 h-16 text-orange mb-6 mx-auto"></i>
+                    <h3 class="text-2xl font-bold mb-4">Business Cleanouts</h3>
+                    <p class="text-lg">Office cleanouts, construction debris removal, and property management services.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <i data-feather="home" class="w-16 h-16 text-orange mb-6 mx-auto"></i>
+                    <h3 class="text-2xl font-bold mb-4">Estate Cleanouts</h3>
+                    <p class="text-lg">Compassionate and thorough cleanout services for estates and foreclosures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6 text-dark-blue">About Tucker & Son's</h2>
+                <p class="text-xl mb-6">We are a family-owned junk removal business serving our community for over 15 years. Founded by John Tucker and his son Mike.</p>
+                <p class="text-xl mb-8">Our mission is to make junk removal simple and stress-free. We handle the heavy lifting so you don't have to.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
+                    <div class="flex items-center justify-center">
+                        <i data-feather="check-circle" class="w-6 h-6 text-orange mr-2"></i>
+                        <span>Fully insured and licensed</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i data-feather="check-circle" class="w-6 h-6 text-orange mr-2"></i>
+                        <span>Eco-friendly disposal</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i data-feather="check-circle" class="w-6 h-6 text-orange mr-2"></i>
+                        <span>Same-day service available</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i data-feather="check-circle" class="w-6 h-6 text-orange mr-2"></i>
+                        <span>Free estimates</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-dark-blue text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Contact Us Today</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+                    <p class="text-xl mb-8">Ready to get rid of your junk? Call us for a free, no-obligation quote.</p>
+                    <div class="flex items-center justify-center md:justify-start mb-4">
+                        <i data-feather="phone" class="w-8 h-8 mr-4 text-orange"></i>
+                        <span class="text-2xl font-bold">(229) 561-8781</span>
+</div>
+                    <div class="flex items-center justify-center md:justify-start mb-4">
+                        <i data-feather="mail" class="w-8 h-8 mr-4 text-orange"></i>
+                        <span class="text-xl">TSJunk@gmail.com</span>
+                    </div>
+<div class="flex items-center justify-center md:justify-start">
+                        <i data-feather="map-pin" class="w-8 h-8 mr-4 text-orange"></i>
+                        <span class="text-xl">Proudly Serving Lowndes County and Surrounding Areas</span>
+</div>
+                </div>
+                <div>
+                    <form class="bg-white text-dark-blue p-8 rounded-lg shadow-lg">
+                        <div class="mb-6">
+                            <label class="block text-xl font-bold mb-3" for="name">Your Name</label>
+                            <input class="w-full px-4 py-3 border-2 border-gray-300 rounded text-lg" type="text" id="name" required>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-xl font-bold mb-3" for="phone">Phone Number</label>
+                            <input class="w-full px-4 py-3 border-2 border-gray-300 rounded text-lg" type="tel" id="phone" required>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-xl font-bold mb-3" for="message">How can we help you?</label>
+                            <textarea class="w-full px-4 py-3 border-2 border-gray-300 rounded text-lg" id="message" rows="4" placeholder="Tell us about your junk removal needs..."></textarea>
+                        </div>
+                        <button type="submit" class="bg-orange hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition text-xl w-full">Request Free Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-xl">&copy; 2023 Tucker & Son's Junk Removal. All rights reserved.</p>
+            <p class="mt-3 text-lg">Family Owned and Operated Since 2025</p>
+<p class="mt-3 text-lg">Call us today: <strong>(229) 561-8781</strong></p>
+</div>
+    </footer>
+<script>
+        feather.replace();
+    </script>
+</body>
+</html>
